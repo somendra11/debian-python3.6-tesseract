@@ -32,7 +32,7 @@ RUN echo "deb http://ftp.de.debian.org/debian testing main"  >> /etc/apt/sources
    nltk scipy widgetsnbextension unidecode \
  && mkdir /root/.jupyter \
  && echo "c.NotebookApp.ip = '0.0.0.0'" >> /root/.jupyter/jupyter_notebook_config.py \
- && echo "c.NotebookApp.password = u'sha1:c4005a7d275c:b71e110711d36578c58a6a83727695077f36c6bd'" >> /root/.jupyter/jupyter_notebook_config.py \
+ && echo "c.NotebookApp.password = u'sha1:a83f58e93d8d:224a80c49eff21735f7356ffa92a10c5a529585b'" >> /root/.jupyter/jupyter_notebook_config.py \
  && echo "c.NotebookApp.password_required = True" >> /root/.jupyter/jupyter_notebook_config.py \
  && echo "c.NotebookApp.port = 8022" >> /root/.jupyter/jupyter_notebook_config.py \
  && echo "c.NotebookApp.allow_root = True" >> /root/.jupyter/jupyter_notebook_config.py \
