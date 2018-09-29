@@ -4,5 +4,8 @@ After running docker by
  - pulling its git from 
  - going in that folder
  - running 'docker-compose up -d'
+ 
+ 
+ 
 you can run jupyter on localhost:8022
 password: abc123 # please change password to secure your notebook using https://jupyter-notebook.readthedocs.io/en/stable/config.html
